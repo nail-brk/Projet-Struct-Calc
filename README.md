@@ -1,10 +1,10 @@
-# Projet-Struct-Calc
-ALU code opération :
-0 : ajouter
-1 : soustraire
-2 : and
-3 : or 
-4 : xor
-5 : décalage à droite
-6 : décalage à gauche 
-7 : multiplication
+# Projet-Struct-Calc \n
+ALU code opération : \n
+0 : ajouter \n
+1 : soustraire \n
+2 : and \n
+3 : or \n
+4 : xor \n
+5 : décalage à droite \n
+6 : décalage à gauche \n
+7 : multiplication \n
