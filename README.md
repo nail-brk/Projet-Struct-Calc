@@ -32,5 +32,3 @@ CTRL code opération :
 
 4 : JINF
 
-
-7 : multiplication 
