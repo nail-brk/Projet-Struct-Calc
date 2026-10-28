@@ -2314,13 +2314,33 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="10" pin="850,450" width="10" x="85" y="135"/>
       <circ-anchor facing="east" height="6" width="6" x="47" y="57"/>
     </appear>
+    <wire from="(700,450)" to="(700,460)"/>
+    <wire from="(720,440)" to="(720,450)"/>
+    <wire from="(790,450)" to="(850,450)"/>
+    <wire from="(740,470)" to="(740,600)"/>
+    <wire from="(340,460)" to="(390,460)"/>
+    <wire from="(470,350)" to="(470,360)"/>
+    <wire from="(750,450)" to="(790,450)"/>
+    <wire from="(510,500)" to="(510,520)"/>
+    <wire from="(400,520)" to="(510,520)"/>
+    <wire from="(560,380)" to="(560,410)"/>
+    <wire from="(560,430)" to="(560,460)"/>
+    <wire from="(310,600)" to="(740,600)"/>
+    <wire from="(310,580)" to="(730,580)"/>
+    <wire from="(510,420)" to="(550,420)"/>
+    <wire from="(310,520)" to="(400,520)"/>
+    <wire from="(440,330)" to="(790,330)"/>
     <wire from="(730,470)" to="(730,580)"/>
     <wire from="(310,540)" to="(340,540)"/>
-    <wire from="(310,520)" to="(340,520)"/>
-    <wire from="(310,600)" to="(740,600)"/>
-    <wire from="(750,450)" to="(850,450)"/>
-    <wire from="(740,470)" to="(740,600)"/>
-    <wire from="(310,580)" to="(730,580)"/>
+    <wire from="(700,450)" to="(720,450)"/>
+    <wire from="(410,460)" to="(560,460)"/>
+    <wire from="(440,330)" to="(440,370)"/>
+    <wire from="(440,370)" to="(450,370)"/>
+    <wire from="(400,470)" to="(400,520)"/>
+    <wire from="(790,330)" to="(790,450)"/>
+    <wire from="(510,420)" to="(510,480)"/>
+    <wire from="(560,460)" to="(700,460)"/>
+    <wire from="(490,380)" to="(560,380)"/>
     <comp lib="0" loc="(310,520)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Cond"/>
@@ -2338,6 +2358,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="Reset"/>
     </comp>
+    <comp lib="1" loc="(410,460)" name="Controlled Buffer">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="1" loc="(510,480)" name="NOT Gate">
+      <a name="facing" val="north"/>
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(470,350)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="4" loc="(750,450)" name="Register">
       <a name="width" val="16"/>
       <a name="trigger" val="falling"/>
@@ -2353,6 +2383,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(310,540)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="CTRL"/>
+    </comp>
+    <comp lib="3" loc="(490,380)" name="Adder">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="1" loc="(560,430)" name="Controlled Buffer">
+      <a name="facing" val="south"/>
+      <a name="width" val="16"/>
     </comp>
   </circuit>
   <circuit name="Seq">
