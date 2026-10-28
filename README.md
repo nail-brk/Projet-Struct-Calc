@@ -17,3 +17,20 @@ ALU code opération :
 6 : décalage à gauche
 
 7 : multiplication 
+
+=========================
+
+CTRL code opération : 
+
+0 : JMP
+
+1 : JEQU
+
+2 : JNEQ
+
+3 : JSUP
+
+4 : JINF
+
+
+7 : multiplication 
