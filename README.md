@@ -20,6 +20,14 @@ ALU code opération :
 
 =========================
 
+MEM code opération : 
+
+0 : LD
+
+1 : ST
+
+=========================
+
 CTRL code opération : 
 
 0 : JMP
@@ -31,4 +39,11 @@ CTRL code opération :
 3 : JSUP
 
 4 : JINF
+
+5 : CALL
+
+6 : RET
+
+
+
 
