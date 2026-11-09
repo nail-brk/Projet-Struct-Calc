@@ -3,10 +3,10 @@ import re
 import sys
 
 
-ALU_OPS = {"ADD": 0, "SUB": 1, "AND": 2, "OR": 3, "XOR": 4, "SL": 5, "SR": 6,"MUL": 7}  
+ALU_OPS = {"ADD": 0, "SUB": 1, "AND": 2, "OR": 3, "XOR": 4, "SR": 5, "SL": 6,"MUL": 7}
 CTRL_OPS = {"JMP": 0, "JEQU": 1, "JNEQ": 2, "JSUP": 3, "JINF": 4, "CALL": 5, "RET": 6}
 COND_JUMPS = {"JEQU", "JNEQ", "JSUP", "JINF"}
-TYPE_ALU, TYPE_MEM, TYPE_CTRL = 0b00, 0b10, 0b11  
+TYPE_ALU, TYPE_MEM, TYPE_CTRL = 0b00, 0b10, 0b11
 MEM_SIZE = 1 << 16
 
 
@@ -191,8 +191,8 @@ def run_pass(lines, labels, resolve):
 def assemble(text):
     lines = text.splitlines()
     labels = {}
-    run_pass(lines, labels, resolve=False)       
-    return run_pass(lines, labels, resolve=True), labels  
+    run_pass(lines, labels, resolve=False)
+    return run_pass(lines, labels, resolve=True), labels
 
 
 def to_image(words):
