@@ -2,47 +2,47 @@
 
 ALU code opération : 
 
-0 : ajouter 
+0 : ADD (addition)
 
-1 : soustraire 
+1 : SUB (soustraction)
 
-2 : and 
+2 : AND (et logique)
 
-3 : or 
+3 : OR (ou logique)
 
-4 : xor
+4 : XOR (ou exclusif logique)
 
-5 : décalage à droite 
+5 : SR (decalage a droite)
 
-6 : décalage à gauche
+6 : SL (decalage a gauche)
 
-7 : multiplication 
+7 : MUL (multiplication)
 
 =========================
 
 MEM code opération : 
 
-0 : LD
+0 : LD (Load)
 
-1 : ST
+1 : ST (Store)
 
 =========================
 
 CTRL code opération : 
 
-0 : JMP
+0 : JMP (Saut inconditionnel)
 
-1 : JEQU
+1 : JEQU (Saut avec egualité)
 
-2 : JNEQ
+2 : JNEQ (Saut avec inegualité)
 
-3 : JSUP
+3 : JSUP (Saut avec supériorité)
 
-4 : JINF
+4 : JINF (Saut avec infériorité)
 
-5 : CALL
+5 : CALL (Appel de fonction)
 
-6 : RET
+6 : RET (Revenir d'un appel de fonction)
 
 
 
